@@ -62,7 +62,7 @@ function Login() {
               label="Password: "
               type="password"
               placeholder="Enter your password"
-              {...register('password', { required: true, minLength: 6 })}
+              {...register('password', { required: true, minLength: 6 })} //register aise hi use hota h from documentation
             />
             <Button
               type="submit"
